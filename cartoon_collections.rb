@@ -23,7 +23,5 @@ def find_the_cheese(ingredients)
   ingredients.find do |cheese|
     cheese_types.include?(cheese)
     end
-    return cheese
   end
-  return nil
 end
