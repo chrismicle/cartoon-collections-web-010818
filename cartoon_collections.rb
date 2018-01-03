@@ -1,7 +1,9 @@
 def roll_call_dwarves(list_of_dwarves)
-  list_of_dwarves = []
-  list_of_dwarves.each_with_index do |index, dwarf|
-    
+  numbered_list = []
+  list_of_dwarves.each_with_index do |dwarf, i|
+    numbered_list << "(i+1) + ' ' #{dwarf} + ' '"
+  end
+  
   
 end
 
