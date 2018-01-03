@@ -3,7 +3,7 @@ def roll_call_dwarves(list_of_dwarves)
   list_of_dwarves.each.with_index do |dwarf, i|
     numbered_list << "#{i+1} #{dwarf}"
   end
-  puts numbered_list.join(" ")
+  puts numbered_list
 end
 
 def summon_captain_planet# code an argument here
