@@ -1,6 +1,7 @@
-def roll_call_dwarves(dwarves)
+def roll_call_dwarves(list_of_dwarves)
   list_of_dwarves = []
-  dwarves.each_with_index do |index, 
+  list_of_dwarves.each_with_index do |index, dwarf|
+    
   
 end
 
